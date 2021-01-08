@@ -9,13 +9,13 @@ function showOutput() {
   console.log(cur)
 
   if (cur > 12) {
-    message = 'Its afternoon'
+    message = 'Good afternoon'
     output.style.backgroundColor = 'black'
   } else if (cur > 17) {
-    message = 'Its evening'
+    message = 'Good evening'
     output.style.backgroundColor = 'blue'
   } else if (cur > 0) {
-    message = 'Its morning'
+    message = 'Good morning'
     output.style.backgroundColor = 'green'
   } else {
     message = 'Something is wrong'
